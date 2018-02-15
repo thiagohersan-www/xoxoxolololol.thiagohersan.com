@@ -11,6 +11,10 @@ $LINK-COLOR: $TITLE-COLOR;
 $LINK-COLOR-VISITED: $LINK-COLOR;
 $LINK-COLOR-HOVER: lighten($LINK-COLOR, 50%);
 
+$TITLE-SIZE: 2.2vw;
+$TEXT-SIZE: 1.6vw;
+$LINK-SIZE: 1.7vw;
+
 $MENU-BACKGROUND-COLOR: rgba(255,255,255,1);
 $MENU-TEXT-COLOR: rgba(40,40,40,1);
 $MENU-TEXT-HOVER-COLOR: lighten($MENU-TEXT-COLOR, 40%);
@@ -19,30 +23,8 @@ $MENU-TITLE-SIZE: 1.1rem;
 $MENU-SUBTITLE-SIZE: 1.1rem;
 $MENU-ITEM-SIZE: 1rem;
 
-$TITLE-SIZE: 2.2vw;
-$TEXT-SIZE: 1.6vw;
-$LINK-SIZE: 1.7vw;
-
-$TITLE-SIZE-MOBILE: 1.5rem;
-$TEXT-SIZE-MOBILE: 1rem;
-$LINK-SIZE-MOBILE: 1rem;
-
-$COLUMN-WIDTH: 320px;
 $MENU-WIDTH: 280px;
 $MENU-ITEM-SPACING: 4px;
 
 $TRANSITION-PERIOD: 0.1s;
 $RESPONSIVE-SPACING: 2vw;
-
-$two_columns: 2 * $COLUMN-WIDTH;
-$three_columns: 3 * $COLUMN-WIDTH;
-
-@mixin media-query($canvas) {
-  @if $canvas == DESKTOP {
-   @media only screen and (min-width: $two_columns) { @content; }
-  }
-  @else if $canvas == LGDESKTOP {
-   @media only screen and (min-width: $three_columns) { @content; }
-  }
-}
-
