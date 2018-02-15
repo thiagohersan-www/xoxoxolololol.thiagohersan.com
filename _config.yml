@@ -1,0 +1,52 @@
+# Site
+title: Your Name (maybe?)
+
+# URL
+url: http://your-site.com
+baseurl: ''
+
+# default url for pages/posts
+permalink: :title/
+
+# site directory structure specifications
+include: ['_pages']
+sass:
+  sass_dir: css
+
+# Build settings
+markdown: kramdown
+port: 4323
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "post"
+
+# Data
+social:
+  facebook_user: "facebookUserName"
+  twitter_user: "twitterUserName"
+
+# Data
+social:
+  facebook: "https://www.facebook.com/user"
+  instagram: "https://www.instagram.com/user"
+  github: "https://github.com/user"
+  twitter: "https://twitter.com/user"
+  youtube: ""
+  vimeo: ""
+  soundcloud: ""
+  tumblr: ""
+  pinterest: ""
+  envelope-o: "mailto:contato@site.com"
+  twitter_user: "user"
