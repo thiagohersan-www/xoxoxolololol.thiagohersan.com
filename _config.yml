@@ -3,7 +3,7 @@ title: Your Name (maybe?)
 
 # URL
 url: https://thiagohersan-jekyll.github.io
-baseurl: 'simple-jekyll-site/'
+baseurl: ''
 
 # default url for pages/posts
 permalink: :title/
