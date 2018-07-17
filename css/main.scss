@@ -72,12 +72,13 @@ body {
     display: block;
   }
 
-  .hide-menu {
+  #hide-menu {
     position: absolute;
     top: 0;
     right: 0;
     cursor: pointer;
     padding: 8px;
+    font-size: 20px;
   }
 
   .menu-item {
@@ -98,7 +99,7 @@ body {
   }
 
   .menu-title {
-    padding-bottom: 4 * $MENU-ITEM-SPACING;
+    padding: 4 * $MENU-ITEM-SPACING 0;
     font-size: $MENU-TITLE-SIZE;
   }
 
@@ -127,12 +128,13 @@ body {
   left: 0;
 }
 
-.show-menu {
+#show-menu {
   position: absolute;
   top: 0;
   left: 0;
   cursor: pointer;
   padding: 16px 8px;
+  font-size: 20px;
 }
 
 #main-div {
