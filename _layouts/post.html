@@ -3,8 +3,15 @@
   <head>
     {% include head.html %}
     {% include meta.html %}
+    <script>
+      function showMenu() {
+        document.getElementById('navbar').classList.add('shown');
+        document.getElementById('navbar').classList.remove('hidden');
+      }
+    </script>
   </head>
   <body>
+    <div class="show-menu fa fa-bars" onclick="showMenu()"></div>
     {% include navbar.html %}
     <div id="main-div">
       <div id="post" class=" {{ page.rotate }}">

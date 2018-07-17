@@ -1,5 +1,5 @@
 # Site
-title: Your Name (maybe?)
+title: XOXOXOLOLOLOL
 
 # URL
 url: https://xoxoxolololol.ml
@@ -15,7 +15,7 @@ sass:
 
 # Build settings
 markdown: kramdown
-port: 4323
+port: 4324
 
 # Defaults
 defaults:
@@ -35,18 +35,18 @@ defaults:
 # Data
 social:
   facebook_user: "facebookUserName"
-  twitter_user: "twitterUserName"
+  twitter_user: "nottoopublic"
 
 # Data
 social:
-  facebook: "https://www.facebook.com/user"
-  instagram: "https://www.instagram.com/user"
-  github: "https://github.com/user"
-  twitter: "https://twitter.com/user"
+  facebook: ""
+  instagram: "https://www.instagram.com/missoshiroalgumacoisa/"
+  github: ""
+  twitter: "https://twitter.com/nottoopublic"
   youtube: ""
   vimeo: ""
   soundcloud: ""
   tumblr: ""
   pinterest: ""
-  envelope-o: "mailto:contato@site.com"
-  twitter_user: "user"
+  envelope-o: ""
+  twitter_user: "nottoopublic"

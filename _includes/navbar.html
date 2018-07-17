@@ -1,12 +1,21 @@
-<div id="navbar">
+<script>
+  function hideMenu() {
+    document.getElementById('navbar').classList.remove('shown');
+    document.getElementById('navbar').classList.add('hidden');
+  }
+</script>
+
+<div id="navbar" class="hidden">
+  <div class="hide-menu" onclick="hideMenu()">✖</div>
+
   <a class="menu-item menu-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
-  <div class="menu-item menu-subtitle">Projetos</div>
+  <div class="menu-item menu-subtitle"></div>
   {% for post in site.posts %}
     <a class="menu-item menu-item-post" href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
   {% endfor %}
 
-  <div class="menu-item menu-subtitle">Info</div>
+  <div class="menu-item menu-subtitle"></div>
   {% assign menuPages = site.pages | where:"menu","true" %}
   {% for page in menuPages %}
     <a class="menu-item menu-item-page" href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
