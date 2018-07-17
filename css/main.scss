@@ -177,7 +177,11 @@ body {
   background-position: right center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 56vh;
+  box-sizing: border-box;
+  padding-bottom: 56%;
+  min-height: 500px;
+  max-height: 700px;
+  
 }
 
 #swipebox-gallery {
