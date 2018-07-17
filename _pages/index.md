@@ -1,5 +1,5 @@
 ---
-title: XOXOXOLOLOLOLfl
+title: XOXOXOLOLOLOL
 permalink: '/'
 ---
 ![](assets/covers/homecover.jpg)
