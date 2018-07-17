@@ -1,10 +1,10 @@
 ---
-title: 'Networking the network: Private network as frame for artistic interventions'
+title: 'Networking the network'
 swipebox: hmmg0
 ---
 ![]({{ site.baseurl }}/assets/posts/hmmg10.jpg)
 
-**Abstract**  
+**Private network as frame for artistic interventions**  
 Through the description and analysis of the creative process of network-based artworks, the paper addresses the micropolitical attitude of artists while framing reality through their private circle. The analysed artworks comprehend from the authors’ own repertoire XOXOXOLOLOLOL(2015-17) and Zusammen(2017).
 
 By means of circular and self-organizing regulation these works explore cybernetic principles while turning tangible the resonance of thought and preparing the terrain for self-understanding and self-criticism among the participants.
