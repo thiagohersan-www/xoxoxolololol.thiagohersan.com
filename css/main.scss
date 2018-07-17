@@ -172,6 +172,14 @@ body {
   }
 }
 
+.home-image {
+  background-image: url({{ site.baseurl }}/assets/covers/homecover.jpg);
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 56vh;
+}
+
 #swipebox-gallery {
   display: flex;
   flex-direction: row;

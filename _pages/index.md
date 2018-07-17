@@ -2,4 +2,4 @@
 title: XOXOXOLOLOLOL
 permalink: '/'
 ---
-![](assets/covers/homecover.jpg)
+<div class="home-image"></div>
