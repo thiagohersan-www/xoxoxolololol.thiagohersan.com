@@ -1,5 +1,5 @@
 ---
-title: 'Networking the network'
+title: 'Networking The Network'
 swipebox: hmmg0
 ---
 ![]({{ site.baseurl }}/assets/posts/hmmg10.jpg)
