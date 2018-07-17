@@ -1,5 +1,5 @@
 ---
-title: Your Name Here
+title: XOXOXOLOLOLOLfl
 permalink: '/'
 ---
 ![](assets/covers/homecover.jpg)

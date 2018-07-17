@@ -1,7 +1,7 @@
 ---
 title: 'O Afeto na Era de Sua Reprodutibilidade Digital'
 ---
-![]({{ site.baseurl }}/assets/posts/FATA2016_workshop-flyer.jpg)
+![]({{ site.baseurl }}/assets/posts/FATA2016_workshop.jpg)
 
 Por bem ou por mal a internet e seus dispositivos tem mudado a forma que fazemos… tudo. Educação, comunicação, consumo, entretenimento... é difícil imaginar um aspecto de nossas vidas que não tenha sido influenciado por essa conectividade. A partir dos benefícios evidentes oferecidos por essa tecnologia (acesso à informação, otimização de recursos), como são os mecanismos com que esses dispositivos tem influenciado nosso comportamento?
 
