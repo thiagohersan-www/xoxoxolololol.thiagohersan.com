@@ -11,7 +11,8 @@
   <a class="menu-item menu-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
   <div class="menu-item menu-subtitle"></div>
-  {% for post in site.posts %}
+  {% assign menuPosts = site.posts | where:"menu","true" %}
+  {% for post in menuPosts %}
     <a class="menu-item menu-item-post" href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
   {% endfor %}
 

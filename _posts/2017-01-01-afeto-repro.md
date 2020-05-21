@@ -1,5 +1,6 @@
 ---
 title: 'O Afeto na Era de Sua Reprodutibilidade Digital'
+menu: true
 ---
 ![]({{ site.baseurl }}/assets/posts/FATA2016_workshop.jpg)
 

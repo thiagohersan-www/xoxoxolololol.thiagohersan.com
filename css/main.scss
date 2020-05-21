@@ -64,7 +64,7 @@ body {
   width: 100%;
   max-width: $MENU-WIDTH;
   min-height: 100vh;
-  padding: 2%;
+  padding: 24px;
 
   transition: left 0.5s ease-in-out;
 
@@ -78,7 +78,7 @@ body {
     right: 0;
     cursor: pointer;
     padding: 8px;
-    font-size: 20px;
+    font-size: 32px;
   }
 
   .menu-item {
@@ -133,15 +133,16 @@ body {
   top: 0;
   left: 0;
   cursor: pointer;
-  padding: 16px 8px;
-  font-size: 20px;
+  padding: 16px 32px;
+  font-size: 32px;
 }
 
 #main-div {
   display: block;
   box-sizing: border-box;
   width: 70%;
-  margin: $RESPONSIVE-SPACING auto;
+  min-width: 360px;
+  margin: 64px auto;
 }
 
 #post {
@@ -180,10 +181,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   box-sizing: border-box;
-  padding-bottom: 56%;
   min-height: 500px;
   max-height: 700px;
-  
 }
 
 #swipebox-gallery {
